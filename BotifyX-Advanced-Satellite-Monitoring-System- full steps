@@ -1,0 +1,165 @@
+     BotifyX Advanced Satellite Signal Monitoring System Using SDR Technology
+Abstract
+The BotifyX Advanced Satellite Signal Monitoring System is a low-cost Software Defined Radio (SDR) based ground station designed for educational, research, and radio-frequency monitoring applications. The system uses an antenna, Low Noise Amplifier (LNA), RTL-SDR receiver, and Raspberry Pi or laptop to receive and analyze satellite radio signals. A Python-based dashboard provides real-time signal monitoring, spectrum visualization, and data logging capabilities.
+Objective
+    • Receive radio-frequency signals from satellites. 
+    • Monitor signal strength in real time. 
+    • Visualize spectrum data. 
+    • Log received data for analysis. 
+    • Provide a low-cost educational ground station platform. 
+Components Required
+Component
+Quantity
+Cost (₹)
+RTL-SDR USB Receiver
+1
+1500
+V-Dipole Antenna
+1
+800
+Low Noise Amplifier (LNA)
+1
+700
+Coaxial Cable
+1
+300
+USB Extension Cable
+1
+200
+Mounting Hardware
+1
+500
+Raspberry Pi / Laptop
+1
+Existing
+Total Estimated Cost
+
+₹5000
+Hardware Connection Diagram
+          SATELLITE
+               │
+               ▼
+      V-DIPOLE ANTENNA
+               │
+               ▼
+     LOW NOISE AMPLIFIER
+               │
+               ▼
+          RTL-SDR
+               │ USB
+               ▼
+      RASPBERRY PI/LAPTOP
+               │
+               ▼
+      PYTHON DASHBOARD
+Step-by-Step Setup
+Step 1 – Assemble Antenna
+    • Mount the V-Dipole antenna outdoors. 
+    • Ensure an unobstructed sky view. 
+Step 2 – Connect LNA
+    • Connect antenna output to LNA input. 
+    • Secure all RF connections. 
+Step 3 – Connect RTL-SDR
+    • Connect LNA output to RTL-SDR receiver. 
+Step 4 – Connect Processing Unit
+    • Plug RTL-SDR into Raspberry Pi or laptop USB port. 
+Step 5 – Install Software
+    • Install SDR++. 
+    • Install GQRX or CubicSDR. 
+    • Install Python and required libraries. 
+Step 6 – Signal Monitoring
+    • Launch SDR software. 
+    • Configure frequency range. 
+    • Observe spectrum and signal strength. 
+Software Tools
+    • Python 
+    • SDR++ 
+    • GNU Radio 
+    • GQRX 
+    • CubicSDR 
+    • Linux/Windows 
+Features
+    • Real-Time Signal Monitoring 
+    • Frequency Analysis 
+    • Spectrum Visualization 
+    • Signal Logging 
+    • Satellite Pass Observation 
+    • Expandable Dashboard 
+Working Principle
+Satellite transmissions are captured by the antenna. The LNA boosts weak RF signals before they reach the RTL-SDR receiver. The receiver digitizes the signals and sends them to the computer, where SDR software and Python applications analyze and display signal information.
+Applications
+    • Satellite Communication Education 
+    • RF Signal Analysis 
+    • Amateur Radio Research 
+    • Wireless Communication Studies 
+    • Aerospace Projects 
+    • STEM Learning 
+Future Enhancements
+    • AI-Based Signal Classification 
+    • Automatic Satellite Tracking 
+    • Cloud Data Storage 
+    • Mobile Application Integration 
+    • Web-Based Monitoring Dashboard 
+
+After connecting everything, the monitor will not show satellite pictures automatically. With an RTL-SDR setup, the screen usually shows a radio spectrum, frequency information, and signal strength graphs.
+Expected monitoring screen:
+
+=========================================
+ BOTIFYX SATELLITE MONITORING SYSTEM
+=========================================
+
+Frequency: 137.100 MHz
+Signal Strength: 78%
+
+Satellite Status : DETECTED
+Antenna Status   : ONLINE
+RTL-SDR Status   : CONNECTED
+LNA Status       : ACTIVE
+
+-----------------------------------------
+ SIGNAL SPECTRUM
+-----------------------------------------
+
+20% ████
+35% ███████
+60% ████████████
+80% █████████████████
+75% ███████████████
+
+-----------------------------------------
+ SYSTEM LOG
+-----------------------------------------
+[12:15:21] SDR Initialized
+[12:15:25] Antenna Connected
+[12:15:29] Signal Detected
+[12:15:35] Tracking Active
+=========================================
+
+
+Conclusion
+The BotifyX Advanced Satellite Signal Monitoring System demonstrates a practical and affordable approach to radio-frequency monitoring using SDR technology. The project provides valuable experience in RF engineering, embedded systems, signal processing, and software development while remaining within a budget of approximately ₹5000.
+Developed By
+BotifyX Labs
+Domains: AI, Robotics, IoT, Web Development, Embedded Systems, Satellite Technology, Computer Vision, Automation.
+
+Contact:usrcalanabi@gmail.com   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
